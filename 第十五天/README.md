@@ -9,7 +9,7 @@ Odoo模組開發實戰
 | --------| -------- | 
 | Model| Model是儲存資料記錄的最主要手段，它是持久化地對資料記錄(record)進行儲存，直至對其進行刪除 | 
 |BaseModel|MetaModel的子類，是AbstractModel、TransientModel和Model的父類|
-| TransientModel| 稱之為"瞬時模型"，會為瞬時模型儲存資料| 
+| TransientModel| 稱之為"瞬時模型"，與Model的差別是每日會清除該瞬時模型的資料| 
 | MetaModel | 主要作用是註冊每个模塊中的模型 | 
 | AbstractModel | 抽象類中定義一些通用的欄位和方法，在子類中進行繼承或者重寫 |  
  
